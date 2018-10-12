@@ -1,0 +1,10 @@
+{
+  "name": "simple-npm-package",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "browser-sync start -sf"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.7"
+  }
+}

@@ -1,0 +1,27 @@
+.slides {
+    width: 600px;
+    height: 480px;
+
+    overflow: hidden;
+
+    transition: .2s;
+
+    display: flex;
+}
+
+.button {
+
+width: 600px;
+
+display: flex;
+justify-content: center;
+
+}
+
+.buttonLast {
+    padding-right: 15px;
+}
+
+.buttonNext {
+    padding-left: 15px;
+}

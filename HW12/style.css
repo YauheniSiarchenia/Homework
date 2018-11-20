@@ -1,0 +1,59 @@
+html, body, .container {
+    height: 100%;
+}
+
+.header {
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #a68a8a;
+}
+
+.footer {
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #f68f8f;
+}
+
+.main {
+    height: calc(100% - 200px);
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #62dbca;
+}
+
+.textFooter {
+    padding-right: 15px;
+}
+
+.naviButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-item {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.navSearch {
+    margin-left: 10px;
+}

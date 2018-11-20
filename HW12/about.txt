@@ -1,0 +1,8 @@
+1) При помощи классов из Grid system boostrap востановить верстку. В layout.png макет ожидаемого результата.
+https://getbootstrap.com/docs/4.1/layout/grid/
+
+2) В элементе с классом header добавить компонент navbar из boostrap.
+https://getbootstrap.com/docs/4.1/components/navbar/
+
+3) В элемент с классом content добавить компонент carousel из boostrap.
+https://getbootstrap.com/docs/4.1/components/carousel/

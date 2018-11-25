@@ -1,0 +1,34 @@
+extends ./_template.pug
+block head
+    include ./_mixinHead.pug
+    +headLink("./../node_modules/bootstrap/dist/css/bootstrap.css")
+block link
+    include ./_linkOne.pug
+block page
+    div.row
+        div.col-3
+            nav
+                ul(class="nav flex-column")
+                    mixin navLi(aLink, aText)
+                        li(class="nav-item")
+                            a(class="nav-link" href=aLink)=aText
+                    +navLi("./index.html", "Home")
+                    +navLi("./other.html", "Other")
+
+                ul(class="nav flex-column pl-3")
+                    +navLi("./page/1.html", "Page 1")
+                    +navLi("./page/2.html", "Page 2")
+                    +navLi("./page/3.html", "Page 3")
+
+        div.col-9
+            mixin somePage(pageName, pageText, pageLink)
+                div(class="col mt-2")
+                    h2.col=pageName
+                    div.col=pageText
+                        a(class="badge" href=pageLink) ...
+            +somePage("Page 1", "Content for Page 1", "./page/1.html")
+            +somePage("Page 2", "Content for Page 2", "./page/2.html")
+            +somePage("Page 3", "Content for Page 3", "./page/3.html")
+block container
+    include ./_mixinFooter.pug
+    +footerLink("./../node_modules/jquery/dist/jquery.js", "./../node_modules/bootstrap/js/dist/bootstrap.bundle.js")

@@ -1,0 +1,12 @@
+extends ./../_template.pug
+block head
+    include ./../_mixinHead.pug
+    +headLink("./../../node_modules/bootstrap/dist/css/bootstrap.css")
+block link
+    include ./_linkOne.pug
+block page
+    include ../_mixin.pug
+    +otherPage("Page 3", "Content for Page 3 Text")
+block container
+    include ./../_mixinFooter.pug
+    +footerLink("./../../node_modules/jquery/dist/jquery.js", "./../../node_modules/bootstrap/js/dist/bootstrap.bundle.js")

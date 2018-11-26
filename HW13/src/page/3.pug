@@ -3,7 +3,8 @@ block head
     include ./../_mixinHead.pug
     +headLink("./../../node_modules/bootstrap/dist/css/bootstrap.css")
 block link
-    include ./_linkOne.pug
+    include ./../_mixinNav.pug
+    +navLink("./../index.html", "./../other.html")
 block page
     include ../_mixin.pug
     +otherPage("Page 3", "Content for Page 3 Text")

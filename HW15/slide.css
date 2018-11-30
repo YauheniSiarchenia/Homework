@@ -1,0 +1,31 @@
+.slides {
+    width: 600px;
+    height: 480px;
+
+    overflow: hidden;
+
+    transition: .2s;
+
+    display: flex;
+}
+
+.slides-slide__cursor {
+    cursor: crosshair;
+}
+
+.button {
+
+width: 600px;
+
+display: flex;
+justify-content: center;
+
+}
+
+.button-buttonLast__padding {
+    padding-right: 15px;
+}
+
+.button-buttonNext__paddingt {
+    padding-left: 15px;
+}

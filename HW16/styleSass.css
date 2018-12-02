@@ -1,0 +1,31 @@
+.radio {
+  margin-left: 20px;
+  color: #767676;
+}
+.radio_clear {
+  color: #2d2d2d;
+}
+.radio_clear .voxy-radio__box {
+  border-color: #2d2d2d;
+}
+.radio_questions {
+  margin-bottom: 1.5em;
+  font-size: 24px;
+  color: #2d2d2d;
+  font-weight: bold;
+}
+.radio_options {
+  display: flex;
+  flex-direction: column;
+}
+.radio_options-item {
+  margin-bottom: 2em;
+  font-size: 19px;
+  align-items: flex-start;
+}
+.radio_options-item__selected .radio_option-item-text {
+  color: #2d2d2d;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=styleSass.css.map */

@@ -1,0 +1,32 @@
+$colorOne: #2d2d2d
+$fontWeight: bold
+
+@mixin OptionsOne ($margin, $size)
+    margin-bottom: $margin
+    font-size: $size
+
+@mixin OptionsTwo
+    color: $colorOne
+    font-weight: $fontWeight
+
+.radio
+    margin-left: 20px
+    color: #767676
+    &_clear
+        color: $colorOne
+        .voxy-radio__box
+            border-color: $colorOne
+    &_questions
+        @include OptionsOne (1.5em, 24px)
+        @include OptionsTwo
+    &_options
+        display: flex
+        flex-direction: column
+        &-item
+            @include OptionsOne (2em, 19px)
+            align-items: flex-start
+            &__selected
+                .radio_option-item-text
+                    @include OptionsTwo
+
+

@@ -22,11 +22,11 @@ $fontWeight: bold
     &_options
         display: flex
         flex-direction: column
-        &-item
-            @include OptionsOne (2em, 19px)
-            align-items: flex-start
-            &__selected
-                .radio_option-item-text
-                    @include OptionsTwo
+    &_options-item
+        @include OptionsOne (2em, 19px)
+        align-items: flex-start
+        &__selected
+            .radio_option-item-text
+                @include OptionsTwo
 
 

@@ -1,0 +1,17 @@
+.slides {
+  display: flex;
+  width: 600px;
+  height: 480px;
+  overflow: hidden;
+  transition: .2s; }
+  .slides-slide__cursor {
+    cursor: crosshair; }
+
+.button {
+  display: flex;
+  width: 600px;
+  justify-content: center; }
+  .button-buttonLast__padding {
+    padding-right: 15px; }
+  .button-buttonNext__padding {
+    padding-left: 15px; }
